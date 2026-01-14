@@ -28,8 +28,5 @@ Write-Output "Aufgabe b: $b"
 $c = $PSScriptRoot
 Write-Output "Aufgabe c: $c"
 
-$c = Get-Location
-Write-Output "Aufgabe c: $c"
-
 $d = $env:USERNAME
 Write-Output "Aufgabe d: $d"
