@@ -11,3 +11,11 @@ $Var6 = @{
     Name = "GBSSG"
     Modul = "Scripting mit PowerShell"}
 $Var7 = Get-Date
+
+$Var1.GetType() #String
+$Var2.GetType() #String
+$Var3.GetType() #Int32
+$Var4.GetType() #Object[]
+$Var5.GetType() #Boolean
+$Var6.GetType() #Haschtable
+$Var7.GetType() #DateTime
