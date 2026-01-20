@@ -30,3 +30,6 @@ Write-Output "Aufgabe c: $c"
 
 $d = $env:USERNAME
 Write-Output "Aufgabe d: $d"
+
+$e = $env:COMPUTERNAME
+Write-Output "Aufgabe e: $e"
