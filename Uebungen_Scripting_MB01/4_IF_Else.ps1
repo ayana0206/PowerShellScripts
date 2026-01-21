@@ -10,14 +10,14 @@ if ($oneNoteProcess) {
     Write-Output "Aufgabe a: $($oneNoteProcess.Id)"
 }
 else { # Aufgabe b:
-    Write-Output "Prozess OneNote läuft nicht."
+    Write-Output "Prozess OneNote läuft nicht. (Aufgabe b)"
 }
 
 # Aufgabe c:
 $logFile = Join-Path $PSScriptRoot "Scriptlog.log"
 
 if (-not (Test-Path $logFile)) {
-    "Script gestartet" | Out-File -FilePath $logFile
+    "Script gestartet (Aufgabe c)" | Out-File -FilePath $logFile
 } else {
-    Write-Output "Script da!"
+    Write-Output "Script da! (Aufgabe c)"
 }
