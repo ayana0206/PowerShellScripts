@@ -9,6 +9,7 @@ $fruits = "Apple","Pear","Banana","Orange"
 
 $fruits += "Peach", "Pinapple", "Strawberry"
 Write-Output("Aufgabe a: $fruits")
+Write-Output $fruits
 
 $fruit = $fruits | Select-Object -Last 3
 Write-Output("Aufgabe b: $fruit")
@@ -16,3 +17,4 @@ Write-Output("Aufgabe b: $fruit")
 $process = Get-Process 
 $firstProcessses = $process | Select-Object -First 3
 Write-Output ("Aufgabe c: $firstProcessses")
+Write-Output $process[0..2]
